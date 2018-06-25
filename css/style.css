@@ -336,12 +336,57 @@ Main Components
 }
 
 .cd-schedule .single-event[data-event="event-5"],
-.cd-schedule [data-event="event-4"] .header-bg {
+.cd-schedule [data-event="event-5"] .header-bg {
   background: #d8d8d8;
 }
 
 .cd-schedule .single-event[data-event="event-5"]:hover {
   background: #d8d8d8;
+}
+
+.cd-schedule .single-event[data-event="event-6"],
+.cd-schedule [data-event="event-6"] .header-bg {
+  background: #793f3f;
+}
+
+.cd-schedule .single-event[data-event="event-6"]:hover {
+  background: #793f3f;
+}
+
+.cd-schedule .single-event[data-event="event-7"],
+.cd-schedule [data-event="event-7"] .header-bg {
+  background: #b77575;
+}
+
+.cd-schedule .single-event[data-event="event-7"]:hover {
+  background: #b77575;
+}
+
+.cd-schedule .single-event[data-event="event-8"],
+.cd-schedule [data-event="event-8"] .header-bg {
+  background: #e19f3a;
+}
+
+.cd-schedule .single-event[data-event="event-8"]:hover {
+  background: #e19f3a;
+}
+
+.cd-schedule .single-event[data-event="event-9"],
+.cd-schedule [data-event="event-9"] .header-bg {
+  background: #b99b50;
+}
+
+.cd-schedule .single-event[data-event="event-9"]:hover {
+  background: #b99b50;
+}
+
+.cd-schedule .single-event[data-event="event-10"],
+.cd-schedule [data-event="event-10"] .header-bg {
+  background: #b77575;
+}
+
+.cd-schedule .single-event[data-event="event-10"]:hover {
+  background: #b77575;
 }
 
 .cd-schedule .event-modal {
@@ -614,4 +659,17 @@ Main Components
 .cd-schedule.modal-is-open .cover-layer {
   opacity: 1;
   visibility: visible;
+}
+
+.encabezado{
+  font-weight: bold;
+  color: white;
+  background-color: #8b2f44;
+  padding: 15px;
+  border: 1px solid #d8d8d8;
+  border-radius: 10px;
+  width: 80%;
+  margin:20px auto;
+  font-size: 24px;
+  text-align: center;
 }
